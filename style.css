@@ -109,6 +109,9 @@ nav {
     height: 100%;
 }
 
+.placeHolder {
+  color: #3b3f40;
+}
 
 /* --------------------------- Header ---------------------------- */
 
@@ -316,6 +319,20 @@ footer {
 
 /* ------------------------------------------------------ Projects ------------------------------------------------------- */
 
+
+.projectTagContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.languageTag {
+  margin: 1% 1% 1% 1%;
+  color: #cad0db;
+  background-color: #4f5057;
+  padding: 0.25%;
+  border-radius: 0.25em;
+}
+
 .projectWrapper {
   display: flex;
   flex-direction: row;
@@ -332,7 +349,34 @@ footer {
   width: 59vw;
 }
 
+.project02 {
+  width: 59vw;
+}
+
 .projectLeft01 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.projectRight01 {
+  width: 60%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectLeft02 {
+  width: 60%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectRight02 {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -357,12 +401,22 @@ footer {
   padding: 1%;
 }
 
-.projectRight01 {
-  width: 60%;
-  padding-left: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.projectImage03 {
+  background-image: url('PortfolioBild1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 50%;
+  padding: 1%;
+}
+
+.projectImage04 {
+  background-image: url('PortfolioBild2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 42%;
+  padding: 1%;
 }
 
 .projectLink {
@@ -370,26 +424,10 @@ footer {
   color: #05f0ff;
 }
 
-.projectTagContainer {
-  display: flex;
-  flex-direction: row;
-}
-
-.languageTag {
-  margin: 1% 1% 1% 1%;
-  color: #cad0db;
-  background-color: #4f5057;
-  padding: 0.25%;
-  border-radius: 0.25em;
-}
-
 .projectLine {
   border-bottom: 0.1rem solid #3b3f40;
-  margin: 5% 0 10% 0;
+  margin: 5% 0 15% 0;
   width: 100%;
 }
 
-/* --------------------------- Project01 ---------------------------- */
   
-/* --------------------------- Project02 ---------------------------- */
-/* --------------------------- Project03 ---------------------------- */
