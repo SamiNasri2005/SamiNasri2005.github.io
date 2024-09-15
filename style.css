@@ -325,9 +325,24 @@ footer {
   flex-direction: row;
 }
 
+.projectTagExplenation {
+  display: flex;
+  flex-direction: row;
+  min-width: 30%;
+  margin-bottom: 3%;
+}
+
 .languageTag {
   margin: 1% 1% 1% 1%;
   color: #cad0db;
+  background-color: #4f5057;
+  padding: 0.25%;
+  border-radius: 0.25em;
+}
+
+.languageTagPending {
+  margin: 1% 1% 1% 1%;
+  color: #3b3f40;
   background-color: #4f5057;
   padding: 0.25%;
   border-radius: 0.25em;
@@ -350,6 +365,10 @@ footer {
 }
 
 .project02 {
+  width: 59vw;
+}
+
+.project03 {
   width: 59vw;
 }
 
@@ -380,6 +399,21 @@ footer {
   display: flex;
   flex-direction: column;
   width: 40%;
+  justify-content: space-between;
+}
+
+.projectLeft03 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.projectRight03 {
+  width: 60%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -419,6 +453,15 @@ footer {
   padding: 1%;
 }
 
+.projectImage05 {
+  background-image: url('ParkhausBild.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+  padding: 1%;
+}
+
 .projectLink {
   text-decoration: none;
   color: #05f0ff;
@@ -428,6 +471,10 @@ footer {
   border-bottom: 0.1rem solid #3b3f40;
   margin: 5% 0 15% 0;
   width: 100%;
+}
+
+.projectLineLast {
+  margin-bottom: 5%;
 }
 
   
