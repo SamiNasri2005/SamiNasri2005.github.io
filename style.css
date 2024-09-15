@@ -118,7 +118,7 @@ nav {
 
 .linkPlaceHolder {
   text-orientation: mixed;
-  writing-mode:sideways-lr;
+  writing-mode:vertical-lr;
   text-decoration: none;
   min-width: 80%;
   min-height: 10%;
